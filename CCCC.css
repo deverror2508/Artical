@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://t3.ftcdn.net/jpg/04/09/81/22/240_F_409812204_DB79pC30Mid4zQgUwEFOMbniRhzUUk2X.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#header {
+    background: url(https://t3.ftcdn.net/jpg/05/14/95/12/240_F_514951224_2dxMLbIw5qNRdPGD003chpbVcxWtcp7K.jpg);
+    background-size: 100%;
+    background-color: transparent;
+    padding: 50px;
+}
+
+#atext {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* =======================Header_part======================  */
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.877);
+    /* position: sticky; */
+    /* top: 0px; */
+}
+
+/* =======================Section_part======================  */
+.contact {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.content p {
+    font-size: 15px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 10px; */
+}
+.container .contactinfo{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+}
+.container .contactinfo .box{
+    display: flex;
+    position: relative;
+    height: 90px;
+
+}
+.container .contactinfo .box #icon{
+    max-width: 40px;
+    height: auto;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    /* margin: 30px; */
+    transition: 0.5s;
+}
+.container .contactinfo .box #icon:hover{
+    color: rgb(228, 40, 40);
+    cursor: pointer;
+}
+.container .contactinfo .box .text{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    font-weight: 300;
+    /* margin: 20px 0px; */
+}
+.container .contactinfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.container .contactinfo .txt{
+    font-size: 20px;
+    margin-left:29px ;
+}
+.social{
+    position: relative;
+    display: flex;
+    margin: 20px 0px;
+}
+.social li{
+    list-style: none;
+    /* padding: 15px; */
+    margin-left: 29px;
+}
+.social li a{
+    font-size: 25px;
+}
+.container .form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    min-height: 100px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.container .form h3{
+    font-size: 3rem;
+    color: rgb(78, 206, 231);
+    font-weight: 500;
+}
+.container .form .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.container .form .inputbox input,
+.container .form .inputbox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    resize: none;
+}
+button{
+    margin: 0px 70px;
+    padding: 3px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #18cde4ad;
+}
+button:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: 0.4s;
+}
+@media(max-width:714px)
+{
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactinfo,
+    .container .form{
+        width:100%;
+    }
+    .container .form{
+        padding: 20px 20px;
+    }
+}
+
+/* =======================Footer_part======================  */
+footer{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 100vw;
+    font-family: "Open sans";
+    padding: 30px;
+    margin-top: 50px;
+    color: aliceblue;
+
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+}
+.footer-content{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    font: 14px;
+}
+.Socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.Socials li{
+    margin: 0 10px;
+}
+.Socials a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.Socials a i{
+    font-size: 2.1rem;
+    transition: color .4s ease;
+}
+.Socials a:hover{
+    color: aqua;
+}
+.footer-botton  {
+    background: rgba(0, 0, 0, 0.963);
+    width: 100vw;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.footer-botton p{
+    font-size: 17px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-botton span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;   
+}
+
+
+

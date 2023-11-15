@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://t3.ftcdn.net/jpg/04/09/81/22/240_F_409812204_DB79pC30Mid4zQgUwEFOMbniRhzUUk2X.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#header {
+    background: url(https://t3.ftcdn.net/jpg/05/14/95/12/240_F_514951224_2dxMLbIw5qNRdPGD003chpbVcxWtcp7K.jpg);
+    background-size: 100%;
+    background-color: transparent;
+    padding: 50px;
+}
+
+#atext {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* =======================Header_part======================  */
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.877);
+    /* position: sticky; */
+    /* top: 0px; */
+}
+
+/* =======================Section_part======================  */
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+.container{
+    width: 100%;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10%;
+    gap: 50px;
+    margin-top: 30px;
+}
+.container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactinfo.box{
+    position: relative;
+    display: flex;
+    padding: 10px;
+}
+i{
+    width: 60px;
+    font-size: 50px;
+    color: rgb(52, 55, 58);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+    /* background-color: black; */
+}
+i:hover{
+    color: rgb(197, 48, 75);
+}
+.form{
+    position:relative;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 35%;
+    height: auto;
+    padding: 40px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.f{
+    padding:20px;
+    font-size: 30px;
+    text-align: center;
+}
